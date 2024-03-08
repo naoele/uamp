@@ -16,7 +16,6 @@
 
 package com.example.android.uamp.media
 
-import android.Manifest.permission.BIND_NOTIFICATION_LISTENER_SERVICE
 import android.Manifest.permission.MEDIA_CONTENT_CONTROL
 import android.annotation.SuppressLint
 import android.content.Context
@@ -31,6 +30,8 @@ import android.util.Log
 import androidx.annotation.XmlRes
 import androidx.core.app.NotificationManagerCompat
 import androidx.media.MediaBrowserServiceCompat
+import com.example.android.uamp.BuildConfig
+import com.example.android.uamp.R
 import org.xmlpull.v1.XmlPullParserException
 import java.io.IOException
 import java.security.MessageDigest

@@ -20,8 +20,8 @@ import android.content.Context
 import android.support.v4.media.MediaBrowserCompat
 import android.support.v4.media.MediaBrowserCompat.MediaItem
 import android.support.v4.media.MediaMetadataCompat
+import com.example.android.uamp.R
 import com.example.android.uamp.media.MusicService
-import com.example.android.uamp.media.R
 import com.example.android.uamp.media.extensions.album
 import com.example.android.uamp.media.extensions.albumArt
 import com.example.android.uamp.media.extensions.albumArtUri
